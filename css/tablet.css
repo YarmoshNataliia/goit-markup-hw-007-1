@@ -1,0 +1,126 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 582px;
+  }
+  .team-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .team-item {
+    width: calc((100% - 24) / 2);
+  }
+  .coust-item {
+    width: calc((100% - 48px) / 3);
+  }
+  /* ---MENU-- */
+  .hader-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .header-link {
+    font-weight: 500;
+    font-size: var(--main-text-size);
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+    color: var(--main-link-color);
+  }
+
+  .header-link:is(:hover, :focus, .current, .current-pf) {
+    color: var(--activ-link-hover-color);
+  }
+  /* -adresse-- */
+  .menu-open-btn {
+    display: none;
+  }
+  .address {
+    margin-left: auto;
+  }
+
+  .address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .address-item {
+    gap: 40px;
+  }
+
+  .address-tel,
+  .address-mailo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--main-text-size);
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+  }
+
+  .address-mailo:is(:hover, :focus, :current) {
+    color: var(--activ-link-hover-color);
+  }
+
+  /* --Hero-- */
+  .hero > .container {
+    max-width: 100%;
+  }
+  .hero {
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: var(--second-bg-dark-color);
+    background-image: var(--l-gradient), url(../images/hero-tabl.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 108px;
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--l-gradient), url(../images/hero-tabl-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 40px;
+  }
+  /* ---ADVANTAGES-- */
+  .advantadest > container {
+    max-width: 766px;
+  }
+  .div-container {
+    max-width: 766px;
+  }
+  .advantadest-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .advantadest-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .advantadest-title {
+    text-align: left;
+  }
+
+  .advantadest-text {
+    max-width: 356px;
+  }
+  /* ---Portfolio-768-- */
+  /* .filter {
+      padding-top: 64px;
+      padding-bottom: 96px;
+    }
+    .filter-wraper {
+      margin-bottom: 64px;
+    }
+    .filter-list {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 64px;
+    } */
+}
