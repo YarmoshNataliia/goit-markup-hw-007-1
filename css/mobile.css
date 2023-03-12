@@ -1,41 +1,27 @@
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 294px;
+    max-width: 426px;
   }
 
-  .coust-section > container {
-    max-width: 426px;
+  .mob-menu-phone {
+    font-size: 36px;
   }
-  /* .filter > container {
-      max-width: 426px;
-    } */
-  .hero > .container {
-    max-width: 100%;
+
+  .mob-menu-soc-list {
+    width: 328px;
   }
-  .hero-title {
-    max-width: 322px;
+
+  .portfolio-example {
+    width: 396px;
   }
-  /* --ADVANTAGES-- */
-  .advantadest > container {
-    max-width: 426px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-descr {
+    margin-bottom: 72px;
   }
-  .div-container {
-    max-width: 426px;
-  }
-  .advantadest-list {
-  }
-  .advantadest-item {
-  }
-  .advantadest-title {
-    text-align: center;
-  }
-  .advantadest-text {
-    max-width: 396px;
-  }
-  .header > container {
-    max-width: 398px;
-  }
-  .peage-header-container {
-    max-width: 480px;
+
+  .footer-media {
+    margin-bottom: 72px;
   }
 }
